@@ -9,8 +9,8 @@ const Contact = () => {
 
   const contactMethods = [
     {
-      icon: <FaPhone size={24} />,
-      title: "للاتصال",
+      icon: <FaWhatsapp size={24} />,
+      title: "واتساب",
       info: "0913077375",
       bgColor: "rgba(212, 167, 44, 0.2)",
       iconColor: accentBeige
