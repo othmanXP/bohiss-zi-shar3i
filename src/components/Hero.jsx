@@ -6,9 +6,10 @@ import img3 from '../assets/images/3ibaya3.jpg';
 
 const Hero = () => {
   const lines = [
-    { text: "عبايتك بتصميك الخاص!", delay: 0.1 },
-    { text: "عندك قماش عجبك وعايزة تفصلي بيهو عباية؟", delay: 0.2 },
-    { text: "ما تشيلي هم جيبي قماشك وانا افصل ليك عباية شيك وعلى مقاسك بالضبط", delay: 0.2 },
+    { text: "مرحبًا بك في عالم الإبداع والتميّز!", delay: 0.1 },
+    { text: "في [بُهيس للزي الشرعي]، نؤمن أن لكل تفصيلة قيمة، ولكل حلم بداية تستحق أن تُصنع بإتقان.", delay: 0.2 },
+    { text: "نقدّم لك منتجات تجمع بين الجودة، الأناقة، والاهتمام بأدق التفاصيل، لنلبي توقعاتك... بل ونتجاوزها.", delay: 0.2},
+    { text: "اختاري التميز، اختاري [بُهيس]... حيث الشغف يصنع الفارق.", delay: 0.3 },
   ];
 
   const images = [
@@ -84,7 +85,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{
-              fontSize: '3.5rem',
+              fontSize: '3.2rem',
               color: theme.colors.primary,
               fontFamily: "'Amiri', serif",
               fontWeight: 700,
@@ -109,7 +110,7 @@ const Hero = () => {
 
         {/* Hero Lines */}
         <div style={{
-          maxWidth: '800px',
+          maxWidth: '850px',
           margin: '0 auto 3rem'
         }}>
           {lines.map((line, index) => (
@@ -119,16 +120,16 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: line.delay, duration: 0.6 }}
               style={{
-                marginBottom: '1.2rem'
+                marginBottom: '0.8rem'
               }}
             >
               <motion.p
                 whileHover={{ scale: 1.02 }}
                 style={{
-                  fontSize: '1.8rem',
+                  fontSize: '1.6rem',
                   color: theme.colors.primary,
                   fontFamily: "'Amiri', serif",
-                  lineHeight: '1.6',
+                  lineHeight: '1.5',
                   display: 'inline-block'
                 }}
               >
